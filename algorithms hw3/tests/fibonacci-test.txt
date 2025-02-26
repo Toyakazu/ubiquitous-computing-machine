@@ -1,0 +1,17 @@
+// Calculate and print the Fibonacci sequence up to the 10th number
+print "Fibonacci Sequence:";
+
+var a = 0;
+var b = 1;
+var count = 0;
+
+print a;
+print b;
+
+while (count < 8) {
+  var temp = a + b;
+  print temp;
+  a = b;
+  b = temp;
+  count = count + 1;
+}

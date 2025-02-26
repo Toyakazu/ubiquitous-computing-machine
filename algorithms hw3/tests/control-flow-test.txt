@@ -1,0 +1,31 @@
+// Testing if statements
+var condition = true;
+if (condition) {
+  print "Condition is true";
+} else {
+  print "Condition is false";
+}
+
+// Testing while loop
+var count = 1;
+while (count <= 5) {
+  print count;
+  count = count + 1;
+}
+
+// Testing for loop
+for (var i = 1; i <= 5; i = i + 1) {
+  print "For loop: " + i;
+}
+
+// Nested if statements
+var x = 10;
+if (x > 5) {
+  if (x < 15) {
+    print "x is between 5 and 15";
+  } else {
+    print "x is greater than or equal to 15";
+  }
+} else {
+  print "x is less than or equal to 5";
+}

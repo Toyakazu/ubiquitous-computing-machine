@@ -1,0 +1,33 @@
+// Testing variable scoping
+var global = "global";
+print global;
+
+{
+  var local = "local";
+  print local;
+  print global;
+  
+  {
+    var innerLocal = "inner local";
+    print innerLocal;
+    print local;
+    print global;
+  }
+  
+  // This won't work because innerLocal is out of scope
+  // print innerLocal;
+}
+
+// This won't work because local is out of scope
+// print local;
+
+print global;
+
+// Shadow variables
+var shadow = "outer";
+print shadow;
+{
+  var shadow = "inner";
+  print shadow;
+}
+print shadow;

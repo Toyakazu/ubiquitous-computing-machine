@@ -1,0 +1,16 @@
+// Testing variable declaration, assignment and printing
+var a = 1;
+var b = 2;
+print a + b;
+
+// Variable reassignment
+a = 10;
+print a;
+
+// String variables
+var name = "Lox";
+print "Hello, " + name + "!";
+
+// Nil values
+var uninitialized;
+print uninitialized;

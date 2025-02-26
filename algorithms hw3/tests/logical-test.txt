@@ -1,0 +1,21 @@
+// Testing logical operations
+print true and true;
+print true and false;
+print false or true;
+print false or false;
+print !true;
+print !false;
+
+// Comparison operators
+print 5 > 3;
+print 5 < 3;
+print 5 >= 5;
+print 5 <= 10;
+print 5 == 5;
+print 5 != 10;
+
+// Short-circuit evaluation
+var a = "short-circuit";
+// This won't cause an error because of short-circuit evaluation
+print false and nonexistent;
+print true or nonexistent;
